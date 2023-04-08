@@ -10,7 +10,7 @@ public class HelloServiceController {
 	
 	@GetMapping("/sayHello")
 	public String helloWorld() {
-		return "Hello All, Your First Instance of EC2 is serving you...!";
+		return "<h1>EC2 Instance:- Hello ByteBusters...Welcome to AWS World!!!</h1>";
 	}
 
 }
